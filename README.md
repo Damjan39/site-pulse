@@ -4,11 +4,11 @@
 ![SQLite](https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-A lightweight, automated infrastructure monitoring tool written in Python. `SitePulse` continuously tracks the availability and latency of web services, monitors host system resources (CPU, Memory, Disk), and logs incidents into a persistent SQLite database with rich terminal visualization.
+A automated infrastructure monitoring tool written in Python. `SitePulse` continuously tracks the availability and latency of web services, monitors host system resources (CPU, Memory, Disk), and logs incidents into a persistent SQLite database with rich terminal visualization.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Service Health Checks:** Checks HTTP status codes, latency (ms), and server availability.
 - **Local System Metrics:** Inspects CPU usage, RAM utilization, and disk space.
@@ -19,7 +19,7 @@ A lightweight, automated infrastructure monitoring tool written in Python. `Site
 
 ---
 
-## 🛠️ Tech Stack & Concepts
+## Tech Stack & Concepts
 
 - **Language:** Python 3.10+
 - **Architecture:** Clean Object-Oriented Design (OOP) with Dataclasses & Type Hinting
@@ -31,7 +31,7 @@ A lightweight, automated infrastructure monitoring tool written in Python. `Site
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -53,7 +53,7 @@ A lightweight, automated infrastructure monitoring tool written in Python. `Site
 
 ---
 
-## 💻 Usage
+## Usage
 
 ### 1. Run a quick one-time health check
 ```bash
@@ -77,7 +77,7 @@ python main.py --watch --interval 30
 
 ---
 
-## ⚙️ Configuration (`config.json`)
+## Configuration
 
 You can customize targets and timeouts in `config.json`:
 
@@ -103,6 +103,6 @@ You can customize targets and timeouts in `config.json`:
 
 ---
 
-## 👤 Author
+## Author
 - **HTL IT Student**
-- GitHub: [@your-username](https://github.com/)
+- GitHub: [@Damjan39](https://github.com/)
