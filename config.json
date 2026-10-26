@@ -1,0 +1,25 @@
+{
+  "timeout_seconds": 5,
+  "endpoints": [
+    {
+      "name": "Google Search",
+      "url": "https://www.google.com"
+    },
+    {
+      "name": "GitHub Platform",
+      "url": "https://github.com"
+    },
+    {
+      "name": "Cloudflare DNS",
+      "url": "https://1.1.1.1"
+    },
+    {
+      "name": "Wikipedia API",
+      "url": "https://en.wikipedia.org/api/rest_v1/"
+    },
+    {
+      "name": "Mock Test Outage",
+      "url": "https://httpbin.org/status/500"
+    }
+  ]
+}
